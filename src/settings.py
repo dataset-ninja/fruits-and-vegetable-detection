@@ -22,7 +22,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.Unknown()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural(is_used=False), Industry.Retail(is_used=False)]
-CATEGORY: Category = Category.Agriculture(extra=Category.Retail())
+CATEGORY: Category = Category.Retail(extra=Category.Agriculture())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
