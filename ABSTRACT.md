@@ -35,15 +35,13 @@ The second iteration contains three different classes, which include lemons, chi
 
 ## Iteration 3
 
-During the 3rd Iteration, authors got exposure to dataset creation. Here authors decided to make a platform that depicts the environment at the self-checkout stations. To depict the same environment as self-checkout stations, authors put the chrome plate as a background, and for steadiness in all photos, authors set up the phone in one place until they got
-the entire dataset.
+During the 3rd Iteration, authors got exposure to dataset creation. Here authors decided to make a platform that depicts the environment at the self-checkout stations. To depict the same environment as self-checkout stations, authors put the chrome plate as a background, and for steadiness in all photos, authors set up the phone in one place until they got the entire dataset.
 
 Here is a little look at the DIY-home setup of the platform:
 
 <img width="585" alt="fruit_and_veg_preview_3" src="https://github.com/dataset-ninja/fruits-and-vegetable-detection/assets/123257559/597a187e-4d4c-4f8b-a9be-2b24103d3b0c">
 
-Here, during the 3rd iteration, authors create 14 separate classes in which they took approx 50 images of every individual class. 14 class are banana-bag, banana, blackberries, raspberry, lemon-bag, lemon, grapes-bag,
-grapes, tomato-bag, tomato, apple-bag, apple, chili-bag, chili
+Here, during the 3rd iteration, authors create 14 separate classes in which they took approx 50 images of every individual class. 14 class are banana-bag, banana, blackberries, raspberry, lemon-bag, lemon, grapes-bag, grapes, tomato-bag, tomato, apple-bag, apple, chili-bag, chili
 
 For proper lighting, authors set up a lamp backside of the phone stand. Authors took photos by putting an object near and far to the camera. That way their model can learn for all of the scenarios.
 
@@ -51,8 +49,7 @@ For proper lighting, authors set up a lamp backside of the phone stand. Authors 
 
 <span style="font-size: smaller; font-style: italic;">14 Classes with & without bag.</span>
 
-Authors took a total number of 656 images with a different angle and
-different distance from the camera. To give a feel like a self-checkout station they put chrome plate so when it will get to the production model have a little more accuracy due to the identical background.
+Authors took a total number of 656 images with a different angle and different distance from the camera. To give a feel like a self-checkout station they put chrome plate so when it will get to the production model have a little more accuracy due to the identical background.
 
 In some of the images, authors intentionally keep their hands in the images. It will give the feel of a customer's hand during the detection of the item.
 
