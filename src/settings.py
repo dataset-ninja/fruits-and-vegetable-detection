@@ -22,7 +22,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.Unknown()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Retail(is_used=False)]
-CATEGORY: Category = Category.Retail(extra=Category.Agriculture())
+CATEGORY: Category = Category.Retail()
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -51,7 +51,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
-PAPER: Optional[Union[str, List[str], Dict[str, str]]] = {"Report":"https://scholarworks.calstate.edu/downloads/g158bm85x"}
+PAPER: Optional[Union[str, List[str], Dict[str, str]]] = {"MSc Thesis":"https://scholarworks.calstate.edu/downloads/g158bm85x"}
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
