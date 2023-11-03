@@ -16,7 +16,7 @@ The most important part of the Dataset Acquisition is how to capture the images,
 
 To achieve these goals, the authors achieved the result through several iterations. 
 
-# Iteration 1
+## Iteration 1
 
 - First Iteration contains only 1 class with 69 photos of the tomatoes with a bag and without a bag, which is such a small dataset for any object detection model.
 - It is developed for the experimental purpose for checks how it can behave with the YOLO object detection model. 
@@ -35,7 +35,7 @@ The second iteration contains three different classes, which include lemons, chi
 
 ## Iteration 3
 
-During the 3rd Iteration, we got exposure to dataset creation. Here authors decided to make a platform that depicts the environment at the self-checkout stations. To depict the same environment as self-checkout stations, authors put the chrome plate as a background, and for steadiness in all photos, authors set up the phone in one place until they got
+During the 3rd Iteration, authors got exposure to dataset creation. Here authors decided to make a platform that depicts the environment at the self-checkout stations. To depict the same environment as self-checkout stations, authors put the chrome plate as a background, and for steadiness in all photos, authors set up the phone in one place until they got
 the entire dataset.
 
 Here is a little look at the DIY-home setup of the platform:
@@ -56,4 +56,4 @@ different distance from the camera. To give a feel like a self-checkout station 
 
 In some of the images, authors intentionally keep their hands in the images. It will give the feel of a customer's hand during the detection of the item.
 
-Some of the images authors keep half in the bag half outside of the bag. That way we can assume if some of the items keep outside of the bag then it can still perform the detection. That way, one can assume if some of the items keep outside of the bag, then it can still perform the detection.
+Some of the images authors keep half in the bag half outside of the bag. That way, one can assume if some of the items keep outside of the bag, then it can still perform the detection.
